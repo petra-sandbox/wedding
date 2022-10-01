@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "RubikDirt-Regular";
+    src: url(../fonts/RubikDirt-Regular.ttf);
+  }
+
+  /* GENERAL HTML ELEMENT */
+  body {
+    background: url('../img/pumpkinbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    font-family: "RubikDirt-Regular";
+  }
+
+  /* BOOTSTRAP OVERRIDES */
+
+  .btn-primary {
+    background-color: #e96800;
+    border-color: #e96800   ;
+  }
+
+  .btn-primary:hover {
+    background-color: #ff7c00!important;
+    border-color: #ff7c00!important;
+  }
